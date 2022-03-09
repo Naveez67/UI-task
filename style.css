@@ -1,0 +1,457 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+h1{
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, rgb(101, 15, 238) , rgb(83, 201, 236));
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    height: 80px;
+    margin-bottom: 5rem;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navbar{
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: left;
+    width: 100%;
+    margin-top: -0.6rem;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.icon{
+    display: none;
+}
+.profileinfo h1{
+    font-size: 16px;
+}
+.resmenu{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    right: 0%;
+}
+.resmenu a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    /* font-weight: bold; */
+    font-size: 16px;
+    padding: 10px 20px;
+
+}
+.products div h1{
+    font-size: 16px;
+}
+.logo{
+    color: white;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: space-around; */
+    /* height: 80vh; */
+    max-width: 80%;
+    margin: auto;
+    background-color: rgb(248, 241, 241);
+    box-shadow: 2px 3px rgb(177, 174, 174);
+}
+.profilephoto{
+    padding: 20px;
+    max-width: 40%;
+}
+.profilephoto img{
+ width: 100%;
+ /* height: 400px; */
+}
+.profileinfo{
+    max-width: 60%;
+ text-align: left;
+ padding: 20px;
+ margin-left: 2rem;
+ 
+}
+.profileinfo p{
+    text-align:justify;
+    max-width: 350px;
+    color: gray;
+}
+.profileinfo i{
+    /* font-size: 16px; */
+    padding: 8px;
+    color: rgb(24, 23, 23);
+}
+.moreinfo{
+    display: flex;
+    flex-direction: column;
+}
+.moreinfo span{
+   display: flex;
+   align-items: center;
+   color: gray;
+}
+.moreinfo i{
+    color: gray;
+}
+.sbox{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.sbox i{
+    color: white;
+}
+.aboutme{
+    margin-top: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.offer h1{
+    font-size: 16px;
+}
+.left{
+    max-width: 60%;
+    float: left;
+    padding: 20px;
+}
+.right{
+    max-width: 40%;
+    float: left;
+    padding: 20px;
+}
+.left p{
+ max-width: 350px;
+ text-align: justify;
+ color: gray;
+}
+.left div{
+    display: flex;
+    justify-content: space-around;
+}
+.left div i p{
+    text-align: left;
+    color: gray;
+}
+.cprogress{
+    width: 400px;
+    border: 1px solid rgb(184, 167, 167);
+    height: 13px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 25px;
+    padding: 2px;
+}
+.valprogress{
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, rgb(101, 15, 238) , rgb(83, 201, 236));
+    /* margin: 4px; */
+    height: 13px;
+    border-radius: 25px;
+}
+.offer{
+    text-align: center;
+    width: 100%;
+}
+.offer p{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: gray;
+}
+.space{
+    margin-top: 5rem;
+}
+.offersection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.offersection div{
+    border: 1px solid rgb(209, 197, 197);
+    /* background-color: rgb(139, 134, 134); */
+    padding: 10px;
+    margin: 10px;
+}
+.offersection div p{
+    color: gray;
+}
+.pmenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pmenu a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.products{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.products div{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+.products div h1{
+    text-align: center;
+}
+.products div p{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+}
+.offer button{
+     padding: 10px;
+     background-color: blueviolet;
+     background-image: linear-gradient(to right, rgb(101, 15, 238) , rgb(83, 201, 236));
+     color: white;
+     font-size: 16px;
+     margin-top: 2rem;
+}
+.box{
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+.box h1{
+    font-size: 16px;
+}
+.checked{
+    color: orange;
+}
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+.about p{
+   max-width: 300px;
+   color: gray;
+}
+.newsletter input{
+  width: 80%;
+  height: 36px;
+}
+.arrow{
+    background-color: blueviolet;
+     background-image: linear-gradient(to right, rgb(101, 15, 238) , rgb(83, 201, 236));
+     color: white;
+     width: 10%;
+     height: 42px;
+     margin-left: 0rem;
+     text-align: center;
+     align-items: center;
+}
+.arrow i{
+   margin-top: 4px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newsletter i{
+    font-size: 26px;
+}
+.leftp{
+    margin-right: auto;
+    color: gray;
+}
+.pmenu a.active{
+    color: gray;
+}
+/* .show{
+    display:contents;
+} */
+@media (min-width:600px){
+    .navbar{
+        display: none;
+        visibility: hidden;
+
+    }
+}
+@media (max-width:1300){
+    footer{
+        flex-direction: column;
+    }
+    .newsletter{
+        margin-left: 0%;
+    }
+}
+@media (max-width: 800px) {
+    footer{
+        flex-direction: column;
+        height: auto;
+    }
+    .makecenter{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        width: 100%;
+        text-align: left;
+    }
+    .follow{
+        width: 100%;
+        text-align: left;
+    }
+    .newsletter{
+        margin-left: 0%;
+    }
+    .newsletter input{
+        height: 36px;
+    }
+    .products{
+        flex-direction: column;
+    }
+    .products div{
+        width: 100%;
+        text-align: center;
+    }
+    .offer p{
+        width: 100%;
+        text-align:left;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .about{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .menu a{
+        display: none;
+    }
+    nav{
+        height: 60px;
+        background-color: black;
+        margin-bottom: 0rem;
+    }
+    header{
+        flex-direction: column;
+        height: auto;
+        background-color: white;
+    }
+    .profile{
+        max-width: 100%;
+        background-color: white;
+        box-shadow: none;
+    }
+    .profilephoto{
+        max-width: 100%;
+    }
+    .aboutme{
+        margin-top: 0rem;
+        flex-direction: column;
+    }
+    .left{
+        max-width: 100%;
+        text-align: left;
+    }
+    .right{
+        max-width: 100%;
+        text-align: left;
+    }
+    .offersection{
+        flex-direction: column;
+    }
+    .offersection div{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .offer{
+        width: 100%;
+        text-align: left;
+    }
+    .offer h1{
+        text-align: center;
+    }
+    .offer p{
+        text-align: left;
+        margin: 0%;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+    .offer button{
+        margin: auto;
+    }
+    .box{
+        text-align: center;
+    }
+    .box p{
+        max-width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+    .icon{
+        display: contents;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .left div{
+        flex-direction: column;
+        text-align: left;
+    }
+    .products div p{
+        text-align: center;
+    }
+    .show{
+        display: none;
+    }
+  }
+  .boxdonation{
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      margin: 4px;
+  }
+  .left h1{
+      font-size: 16px;
+  }
