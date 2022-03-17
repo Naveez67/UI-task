@@ -108,7 +108,7 @@ nav {
  text-align: left;
  padding: 20px;
  margin-left: 2rem;
- 
+
 }
 
 .profileinfo p {
@@ -129,7 +129,15 @@ nav {
     display: flex;
     flex-direction: column;
 }
-
+.width-60{
+    width: 60%;
+}
+.width-70{
+    width: 70%;
+}
+.width-50{
+    width: 50%;
+}
 .text-color {
     color: blue;
 }
@@ -277,14 +285,14 @@ nav {
     }
     .show{
         display: none;
-    }  
+    }
     .aboutme{
         margin-top: 45vh;
         margin-top: 0%;
     }
 } */
 /* @media (max-width:900px){
-    
+
 } */
 /* @media (min-width:1100px){
     .profile{
@@ -321,7 +329,7 @@ nav {
         margin-top: -4rem;
         margin-left: 0%;
         margin-right: 0%;
-        flex-direction: column;
+        flex-direction: row;
         max-width: 100%;
         background: white;
         box-shadow: none;
@@ -348,7 +356,7 @@ nav {
         color: white;
         font-size: 20px;
     }
-    .demo{
+    .footer{
         flex-direction: column;
         /* justify-content: center; */
     }
@@ -381,7 +389,7 @@ nav {
     }
     .profileinfo p{
         max-width: 100%;
-        
+
     }
     footer{
         flex-direction: column;
@@ -435,7 +443,7 @@ nav {
        color: white;
        font-size: 20px;
    }
-   
+
    .boxdonation{
        width: 80vw;
        margin-top: 1rem;
@@ -493,7 +501,7 @@ nav {
    }
    .profileinfo p{
        max-width: 100%;
-       
+
    }
    .footer-class{
        flex-direction: column;
@@ -533,7 +541,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-     
+
 }
 
 .offersection div{
@@ -558,10 +566,10 @@ nav {
     max-width: 100%;
 }
 
-.demo{
+.footer{
     flex-direction: column;
 }
-.demo div{
+.footer div{
     max-width: 100%;
     margin-left: 3%;
 }
@@ -616,7 +624,7 @@ footer {
     width: 80%;
     height: 36px;
   }
-  
+
   .arrow {
       background-color: blueviolet;
        background-image: linear-gradient(to right, rgb(101, 15, 238) , rgb(83, 201, 236));
@@ -627,11 +635,11 @@ footer {
        text-align: center;
        align-items: center;
   }
-  
+
   .arrow i {
      margin-top: 4px;
   }
-  .demo{
+  .footer{
       display: flex;
       flex-wrap: wrap;
       justify-content:space-between;
@@ -639,7 +647,7 @@ footer {
       background-color: black;
       color: white;
   }
-  .demo p{
+  .footer p{
       color: gray;
   }
   .section-heading button {
